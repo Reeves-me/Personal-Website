@@ -1,0 +1,168 @@
+Prompt 1
+
+You:
+
+when
+
+Me:
+I explained that the <option> tag was outside of the <select> and showed you a corrected dropdown menu for weekdays.
+
+Prompt 2
+
+You:
+
+could you make hte css for me?
+
+Me:
+I gave you a simple CSS snippet for Bootstrap form validation (red border on invalid, green border on valid) and explained you should put it in a <style> tag in the <head> or in a separate CSS file.
+
+Prompt 3
+
+You:
+
+It still doesnst show any required fields, also create teh save event button
+
+Me:
+I gave you a minimal form example using Bootstrap with required attributes and included a "Save Event" button inside the modal footer.
+
+Prompt 4
+
+You:
+
+your doing to much make it simple as possible
+
+Me:
+I simplified the form validation example down to just using the required attribute (no extra JavaScript).
+
+Prompt 5
+
+You:
+
+now do update locaiton as well as simple as possible f the modality for an event is "in-person", then we show a location textbox, and if it's "remote", we should show a remote url textbox.
+
+Me:
+I wrote a simple updateLocationOptions() function in JavaScript, and showed you the corresponding HTML where selecting "In-Person" shows a location input, and "Online" shows a URL input.
+
+Prompt 6
+
+You:
+
+i selected online and it didnt owrk after changing all that
+
+Me:
+I reviewed your HTML, spotted mistakes (onchange=" updateLocationOptions(value)" and a typo in id="evemt_modality"). I corrected them and gave you a fixed version.
+
+Prompt 7
+
+You:
+
+going back to the code for saving the event it is saying there is an error when pushing eventObj to event
+
+Me:
+I explained the error happened because you were pushing to event instead of events (the array). I showed you how to fix it.
+
+Prompt 8
+
+You:
+
+walk me thorugh this part of the lab and explain it better thna they did Displaying Events on the UI...
+
+Me:
+I rewrote the lab’s instructions in clearer steps:
+
+createEventCard() builds the event card
+
+addEventToCalendarUI() inserts it into the correct weekday column
+
+Showed how to use appendChild properly.
+
+Prompt 9
+
+You:
+
+It isnt adding to the calendar, and when i click save changes it doenst close
+
+Me:
+I explained two issues:
+
+You need to call addEventToCalendarUI(eventObj) with the single object, not the array.
+
+To close the modal, you need to either use Bootstrap’s JS (data-bs-dismiss) or close it programmatically.
+
+Prompt 10
+
+You:
+
+the save evnt error pooped up in the console ... createSimpleEventElement is not defined
+
+Me:
+I told you the error is because createSimpleEventElement() was missing. I gave you a simple implementation of that function.
+
+Prompt 11
+
+You:
+
+it is displaying the ui wrong on the calendar
+
+Me:
+I checked your screenshot and explained the event cards were missing proper structure/labels. Suggested fixing formatting inside createEventCard().
+
+Prompt 12
+
+You:
+
+make the code as simple as possible basedo nthe lab instructions
+
+Me:
+I rewrote createEventCard() and addEventToCalendarUI() in the simplest way possible: just create a <div>, fill innerHTML with template string, append it to the weekday.
+
+Prompt 13
+
+You:
+
+why does the event car look like this?
+
+Me:
+I explained your card looked squished because you were appending text directly. Suggested using bold labels and line breaks.
+
+Prompt 14
+
+You:
+
+the event card should look like this (with screenshot)
+
+Me:
+I updated createEventCard() to match the screenshot’s style (bold labels, stacked layout).
+
+Prompt 15
+
+You:
+
+is this all correct for the js script (you pasted full code)
+
+Me:
+I reviewed your script:
+
+Confirmed it’s mostly correct.
+
+Pointed out you accidentally passed the whole events array to addEventToCalendarUI() instead of one eventObj.
+
+Suggested fixing that call.
+
+Prompt 16
+
+You:
+
+List all prompts that were used
+
+Me:
+I listed all your prompts in order (without outputs).
+
+Prompt 17
+
+You:
+
+please create a copiable descrespecitoion of my prompts used along with each of there out puts side by side
+
+Me:
+I created this side-by-side transcript you’re reading now.

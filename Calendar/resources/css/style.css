@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    padding-top: 2%;
+}
+body {
+    height: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  .event:hover {
+    cursor: pointer;
+  }
+  
+  .hidden {
+    visibility: hidden;
+    height: 0;
+  }
+  
+  #calendar {
+    height: 100vh !important;
+  }
+
+.custom-container {
+    width: 100%;
+    padding: 20%;
+}
+
+/* event card matching screenshot */
+.event-card {        
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.08);
+  padding: 0.5rem;                  
+  margin: 0.35rem 0.5rem;           
+  width: 160px;                     
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  font-size: 0.85rem;
+  word-break: break-word;
+}
+
+/* label on left, value on right (stacked visually like screenshot) */
+.event-card .label {
+  font-weight: 600;
+  color: #333;
+}
+.event-card .value {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: #222;
+  font-weight: 400;
+}
+
+/* ensure the calendar column stacks items vertically and preserves width */
+#calendar .col-sm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* keep the day header separated */
+.day {
+  margin-bottom: 0.45rem;
+}
