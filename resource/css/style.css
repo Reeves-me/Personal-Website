@@ -1,0 +1,10 @@
+/* h1-only.css — only changes <h1> so the effect is obvious */
+h1 {
+  color: #e63946;            /* bright red */
+  font-size: 4rem;           /* large and obvious */
+  font-weight: 800;          /* bold */
+  text-transform: uppercase; /* make it shout */
+  letter-spacing: 0.12em;    /* spaced letters */
+  margin: 1rem 0;            /* clear spacing */
+  text-shadow: 0 3px 6px rgba(0,0,0,0.25); /* subtle depth */
+}
